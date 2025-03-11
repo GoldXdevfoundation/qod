@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #222;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #000;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: gold;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: gold;
+    font-weight: bold;
+}
+#home {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(to right, #000, gold);
+    color: #fff;
+}
+.btn {
+    background: gold;
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+#produk {
+    padding: 50px;
+    text-align: center;
+}
+.produk-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.produk {
+    background: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+}
+.produk img {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #000;
+    color: gold;
+}
